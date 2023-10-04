@@ -1,0 +1,16 @@
+server:
+  port: 8000
+spring:
+  task:
+    execution:
+      pool:
+        core-size: 10
+        max-size: 20
+        queue-capacity: 1000
+
+data:
+  path: ./meta_data
+
+zookeeper:
+  address: 10.0.0.201:2181
+  timeout: 20000

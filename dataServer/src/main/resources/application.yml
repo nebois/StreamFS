@@ -1,0 +1,15 @@
+server:
+  port: 9000
+az:
+  rack: rack1
+  zone: zone1
+
+zookeeper:
+  address: 10.0.0.201:2181
+  timeout: 20000
+
+capacity:
+  maxCapacity: 1 073 741 824
+
+data:
+  path: ./data/server_${server.port}
