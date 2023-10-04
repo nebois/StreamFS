@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.ksyun</groupId>
+        <groupId>com.nebois</groupId>
         <artifactId>minFS</artifactId>
         <version>1.0</version>
     </parent>
@@ -29,7 +29,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>com.ksyun.campus.metaserver.MetaServerApplication</mainClass>
+                    <mainClass>com.nebois.streamfs.metaserver.MetaServerApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
